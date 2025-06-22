@@ -10,8 +10,11 @@ Aplikasi Mobile Banking sederhana berbasis Flutter.
 - **Terima Uang**: Fitur untuk menerima transfer dari pengguna lain.
 - **QR Pay**: Pembayaran menggunakan QR code.
 - **Riwayat Transaksi**: Lihat daftar transaksi terakhir.
-- **Layanan Cepat**: Pembelian pulsa, PLN, PDAM, TV Kabel, BPJS, Voucher, Pinjaman, dan lainnya.
-
+- **Layanan Cepat**: Pembelian pulsa, PLN, PDAM, TV Kabel, BPJS, Voucher, Pinjaman, DLL.
+- **Profil**: Foto Profil, Nama, Email, Nomor Hp, DLL.
+- **Tampilan Welcome**: Tampilan Selamat Datang.
+- **Tampilan Login Akun dan Create Akun**: Login dan Buat Akun
+  
 ## Cara Menjalankan
 
 1. Pastikan sudah menginstall [Flutter](https://docs.flutter.dev/get-started/install).
