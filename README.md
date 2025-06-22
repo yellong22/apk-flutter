@@ -12,15 +12,6 @@ Aplikasi Mobile Banking sederhana berbasis Flutter.
 - **Riwayat Transaksi**: Lihat daftar transaksi terakhir.
 - **Layanan Cepat**: Pembelian pulsa, PLN, PDAM, TV Kabel, BPJS, Voucher, Pinjaman, dan lainnya.
 
-## Struktur Folder
-
-- `lib/`
-  - `home_screen.dart` : Halaman utama aplikasi.
-  - `page/transfer_page.dart` : Halaman transfer uang.
-  - `page/terima_page.dart` : Halaman terima uang.
-  - `page/history_page.dart` : Halaman riwayat transaksi.
-  - `page/qrpay_page.dart` : Halaman pembayaran QR.
-
 ## Cara Menjalankan
 
 1. Pastikan sudah menginstall [Flutter](https://docs.flutter.dev/get-started/install).
