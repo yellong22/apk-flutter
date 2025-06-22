@@ -34,6 +34,4 @@ Aplikasi Mobile Banking sederhana berbasis Flutter.
 
 Pastikan asset gambar bank sudah didaftarkan di `pubspec.yaml` dan tersedia di folder `assets/`.
 
-## Dokumentasi Flutter
 
-- [Dokumentasi Flutter](https://docs.flutter.dev/)
