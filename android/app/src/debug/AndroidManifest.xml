@@ -1,0 +1,23 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- The INTERNET permission is required for development. Specifically,
+         the Flutter tool needs it to communicate with the running application
+         to allow setting breakpoints, to provide hot reload, etc.
+    -->
+    <uses-permission android:name="android.permission.INTERNET"/>
+</manifest>
+
+<uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+<uses-permission android:name="android.permission.CAMERA"/> ```
+**Catatan:** Untuk Android 10 (API level 29) ke atas, izin `READ_EXTERNAL_STORAGE` dan `WRITE_EXTERNAL_STORAGE` tidak selalu diperlukan jika hanya membaca media aplikasi. `image_picker` akan mengelola ini sebagian besar, tetapi lebih baik untuk memiliki izin ini jika Anda berencana menyimpan gambar ke luar direktori aplikasi.
+
+**Untuk iOS:**
+Tambahkan baris berikut ke `ios/Runner/Info.plist` Anda sebelum tag `</dict>`:
+
+```xml
+<key>NSPhotoLibraryUsageDescription</key>
+<string>This app needs access to your photo library to set your profile picture.</string>
+<key>NSCameraUsageDescription</key>
+<string>This app needs access to your camera to take a profile picture.</string>
+<key>NSMicrophoneUsageDescription</key>
+<string>This app needs access to your microphone to record videos for profile pictures (optional).</string>
